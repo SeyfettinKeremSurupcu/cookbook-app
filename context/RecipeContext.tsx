@@ -50,9 +50,7 @@ export const RecipeProvider = ({ children }: { children: React.ReactNode }) => {
     setDailyError(null);
 
     try {
-
-      const apiUrl = process.env.EXPO_PUBLIC_API_URL;
-      if (!apiUrl) throw new Error("API URL is missing in .env file");
+      const apiUrl = "https://www.themealdb.com/api/json/v1/1/random.php";
       const response = await fetch(apiUrl);
 
       if (!response.ok) throw new Error('Server response was not ok');
