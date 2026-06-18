@@ -55,7 +55,7 @@ Follow these steps to test the application locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/SeyfettinKeremSurupcu/cookbook-app.git](https://github.com/SeyfettinKeremSurupcu/cookbook-app.git)
+   git clone https://github.com/SeyfettinKeremSurupcu/cookbook-app.git
    cd cookbook-app
    npm install
    npx expo start
